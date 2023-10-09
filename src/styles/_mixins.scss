@@ -1,0 +1,11 @@
+@mixin mobile-responsive {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin flexbox {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
